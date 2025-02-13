@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WatchMe-Register</title>
+        <link rel="stylesheet" type="text/css" href="datepicker.css" /> 
+        <script type="text/javascript" src="datepicker.js"></script>
+        <script type="text/javascript" src="timepicker.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body id="indexbody">
+        <div id="b1"></div>
+        <div id="mheader"><h1>REGISTER</h1></div>
+            <div id="b1"></div>
+            <div id="mheader"><h1>REGISTER</h1></div>
+            <div id="regform">
+                <form  action="register.php" method="POST">
+                    <table id="regtab"><tr><td><label>First Name:</label></td><td><input id="regtb" type="text" name="firstname"></td></tr>
+                           <tr><td><label id="reglab">Last Name:</label></td><td><input id="regtb" type="text" name="lastname"></td></tr>
+                           <tr><td><label>Date of Birth:</label></td><td><input id='start_dt' class='datepicker' type="text" name="dob"></td></tr>
+                           <tr><td><label>Sex:</label></td>
+                                <td>
+                                    <select id="regtb" name="sex">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="unknown">Unknown</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr><td><label>Marriage Status:</label></td>
+                                <td>
+                                    <select id="regtb" name="marriagestatus">
+                                        <option value="single">Single</option>
+                                        <option value="married">Married</option>
+                                        <option value="divorced">Divorced</option>
+                                        <option value="widowed">Widowed</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr><td><label>E-mail:</label></td><td><input id="regtb" type="text" name="email"></td></tr>
+                            <tr><td><label>Phone Number:</label></td><td><input id="regtb" type="text" name="phonenumber"></td></tr>
+                            <tr><td><label>City:</label></td><td><input id="regtb" type="text" name="city"></td></tr>
+                            <tr><td><label>Company: </label></td><td><input id="regtb" type="text" name="company"></td></tr>
+                            <tr><td><label>Username: </label></td><td><input id="regtb" type="text" name="username"></td></tr>
+                            <tr><td><label>Password: </label></td><td><input id="regtb" type="password" name="password"></td></tr>
+                            <tr><td></td><td><input id="regbut" type="submit"></td></tr>
+                    </table>
+                </form>
+            </div>            
+    </body>    
+</html>

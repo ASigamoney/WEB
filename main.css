@@ -1,0 +1,15 @@
+#indexbody{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+#b1{position: absolute;left:0;top:0%;width:100%;height:10%;background-color: cadetblue;}
+#mheader{position:absolute;top:10%;left:5%;font-size:20px;font-weight: bold;text-shadow: 0cap;color:darkblue}
+#indexvideo{position: absolute;top:25%;left:10%;}
+#reg{position: absolute;border:1px;background-color: cadetblue;color: black;width: 30%;height:50%;top:20%;left:50%;font-weight: bold;box-shadow: 2px 2px 2px gray;border-radius: 10px;}
+#username{position:absolute; top:5%;left:5%;width: 90%;height:15%;border-radius: 5px;font-size: 20px;}
+#password{position:absolute; top:35%;left:5%;width: 90%;height:15%;border-radius: 5px;font-size: 20px;}
+#emailbt{position:absolute; top:65%;left:5%;width: 90%;height:15%;font-weight: bold;border-radius: 5px;font-size: 20px;}
+#reghref{position:absolute; top:88%;left:5%;width: 90%;height:15%;font-weight: bold;border-radius: 5px;font-size: 20px;text-align:center;}
+#regform{position: absolute;top:150px;left:80px;background-color: cadetblue;color: black;font-weight:bold;box-shadow: 4px 4px 2px;border-radius: 5px;width:40%;height:80%;}
+#regtab{position: absolute;width:90%;height:90%;top:2%;left:5%;background-color: cadetblue;font-size:17px;}
+#reglab{text-align: center;width:100%;}
+#regtb{border-radius: 5px;width:90%;height:25px;}
+#regbut{border-radius: 5px;width:50%;height:30px;}
+#prodiv{position: absolute;top:30%;left:20%;}
